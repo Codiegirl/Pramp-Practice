@@ -5,3 +5,29 @@ The car manufacturer Honda holds their distribution system in the form of a tree
 Take for example the tree below:
 
 ![Tree](https://www.pramp.com/img/content/img_01.png)
+
+A path from Honda’s factory to a car dealership, which is a path from the root to a leaf in the tree, is called a Sales Path. The cost of a Sales Path is the sum of the costs for every node in the path. For example, in the tree above one Sales Path is 0→3→0→10, and its cost is 13 (0+3+0+10).
+
+Honda wishes to find the minimal Sales Path cost in its distribution tree. Given a node rootNode, write a function getCheapestCost that calculates the minimal Sales Path cost in the tree.
+
+Implement your function in the most efficient manner and analyze its time and space complexities.
+
+For example:
+
+Given the rootNode of the tree in diagram above
+
+Your function would return:
+
+7 since it’s the minimal Sales Path cost (there are actually two Sales Paths in the tree whose cost is 7: 0→6→1 and 0→3→2→1→1)
+
+Constraints:
+
+[time limit] 5000ms
+
+[input] Node rootNode
+
+0 ≤ rootNode.cost ≤ 100000
+[output] integer
+
+
+
