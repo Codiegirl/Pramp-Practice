@@ -4,5 +4,4 @@ The car manufacturer Honda holds their distribution system in the form of a tree
 
 Take for example the tree below:
 
-<img src=https://www.pramp.com/img/content/img_01.png/>
-
+![Tree](https://www.pramp.com/img/content/img_01.png)
